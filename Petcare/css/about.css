@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.container{
+    width: 100%;
+    height: 45vh;
+    /* background-image: url(/images/about/Children-playing-with-a-Mini-Bernedoodle.jpg); */
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner{
+    background-image: url(/images/about/banner.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    object-fit:scale-down;
+}
+
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    color: white;
+    padding: 5% 0% 0% 10%;
+
+    span{
+        font-weight: bolder;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    a:hover{
+        color: rgb(252, 143, 0);
+    }
+
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5%;
+    border-bottom: 2px solid gray;
+    position:sticky;
+    top: 0;
+    width: 100%;
+    /* background-color:rgb(49, 48, 48); */
+    background-color: transparent;
+    background-position: center;
+    background-size: cover;
+}
+
+.logo{
+    display: flex;
+    gap: 20px;
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
+    text-shadow: 3px 3px 2px black;
+}
+.logo i{
+    font-size: 2rem;
+    color: rgb(252, 143, 0);
+}
+ul,li{
+    display: flex;
+    text-decoration: none;
+    gap: 25px;
+    /* color: whitesmoke; */
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+ul a{
+    text-decoration: none;
+    color: white;
+    /* color: black; */
+}
+a:hover{
+    color: blue;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+    /* color: black; */
+    gap: 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.signin{
+    padding: 5px  10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    box-shadow: 4px 4px 3px;
+    background-color: transparent;
+    transition: 0.2s ease;
+}
+.signin:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+}
